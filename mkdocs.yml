@@ -1,0 +1,55 @@
+site_name: Музей худших четырёх лет нашей жизни
+theme:
+  name: material
+  language: ru
+  palette:
+    scheme: slate
+    primary: black
+  font: false
+nav:
+  - all.md
+  - Говорящая голова:
+      - talking_head.md
+      - sword.md
+      - Крестражи:
+          - alla_krestrazh.md
+          - ebuchaya_mashina.md
+          - pomojnaya_kniga.md
+  - Дима:
+      - sushenok.md
+      - mama.md
+      - batya.md
+  - afonasyeva.md
+  - alfiya.md
+  - alla.md
+  - angl2.md
+  - artur.md
+  - bochka.md
+  - delphi.md
+  - dubenchuk.md
+  - ekonomichka.md
+  - fizichka.md
+  - gandon.md
+  - istorik.md
+  - lavash.md
+  - lena.md
+  - malinina.md
+  - nailya.md
+  - obj.md
+  - osnica.md
+  - pizzahouse.md
+  - popd.md
+  - predvestnik.md
+  - serina.md
+  - shiz.md
+  - solovyova.md
+  - tatarka.md
+  - tatarka2.md
+  - zagitov.md
+plugins:
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
+        remove_empty_space: true
+        reduce_boolean_attributes: true

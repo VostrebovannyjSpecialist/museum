@@ -1,0 +1,1 @@
+/home/user/museum/docs/alla.md
